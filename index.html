@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://use.fontawesome.com/b673b18c3e.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+    <title>To do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col mx-auto col-md-8 mt-3 text-center">
+
+                <div class="alert text-capitalize feedback">
+                    Writing a Value
+                </div>
+<!--Formulário-->
+                <form id="itemForm" class="my-3">
+                    <h3 class="text-capitalize mb-4">To do List</h3>
+                    <div class="input-group">
+                        <input type="text" class="form-control text-capitalize" id="itemInput" placeholder="Name..."/>
+                        <div class="input-group-append">
+                            <button class="btn btn-green text-capitalize" type="submit">Add Item</button>
+                        </div>
+                    </div>
+                </form>
+<!--Fim do Form-->
+            <div class="item-container">
+                <div class="item-list my-5">
+                <!--Cada item-->
+                <!--
+                         <div class="item my-3">
+                        <h5 class="item-name text-capitalize"></h5>
+                            <div class="item-icons">
+                                <a href="#" class="complete-item mx-2 item-icon"><i class="fa fa-check-circle"></i></a>
+                                <a href="#" class="edit-item mx-2 item-icon"><i class="fa fa-edit"></i></a>
+                                <a href="#" class="delete-item mx-2 item-icon"><i class="fa fa-trash"></i></a>
+                            </div> 
+                        </div>
+                -->
+                </div>
+            </div>
+                    <button type="button" class="btn btn-green my-3 text-capitalize" id="clear-list">Clear Items</button>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Script do APP/JS-->
+<script src="app.js"></script>
+<!-- JQUERY FOR BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
